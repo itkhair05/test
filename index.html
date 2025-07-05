@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Downloader Pro - Tải video chất lượng cao</title>
+  <link rel="stylesheet" href="static/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+  <div class="particles">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
+  <div class="container">
+    <div class="header">
+      <div class="logo-container">
+        <div class="logo">
+          <span class="logo-icon">🎵</span>
+        </div>
+      </div>
+      <h1 class="title">TikTok Downloader</h1>
+      <p class="subtitle">Tải ảnh và video TikTok chất lượng cao, hoàn toàn miễn phí</p>
+      <div class="badge">
+        <span class="badge-icon"></span>
+        <span style="font-weight: 600;">100% An toàn & Bảo mật</span>
+      </div>
+    </div>
+    <div class="input-section">
+      <label class="input-label">Đường dẫn video TikTok</label>
+      <div class="input-wrapper">
+        <input type="text" class="input-field" id="tiktok-url" placeholder="Dán link TikTok của bạn vào đây... (ví dụ: https://tiktok.com/@username/video/...)">
+        <span class="input-icon">🔗</span>
+      </div>
+    </div>
+    <div class="button-section">
+      <button class="btn" id="download-btn">
+        <span>Tải xuống ngay</span>
+      </button>
+    </div>
+    <div class="result-section" id="result">
+      <!-- Kết quả sẽ được hiển thị ở đây -->
+    </div>
+    <div class="features-section">
+      <h3 class="features-title">Tính năng nổi bật</h3>
+      <div class="features-grid">
+        <div class="feature-card">
+          <span class="feature-icon">⚡</span>
+          <h4 class="feature-title">Tốc độ cao</h4>
+          <p class="feature-desc">Xử lý và tải xuống video trong vài giây</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">🎯</span>
+          <h4 class="feature-title">Không watermark</h4>
+          <p class="feature-desc">Video và ảnh gốc không có logo TikTok</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">📱</span>
+          <h4 class="feature-title">Đa thiết bị</h4>
+          <p class="feature-desc">Hoạt động trên mọi thiết bị</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">🔒</span>
+          <h4 class="feature-title">Bảo mật</h4>
+          <p class="feature-desc">Không cần đăng nhập, đăng ký và đảm bảo không lưu trữ dữ liệu cá nhân</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="footer-text">© 2025 TikTok Downloader Pro. Sản phẩm hoàn toàn miễn phí.</p>
+      <div class="footer-links">
+        <a href="https://www.facebook.com/itskhair205" class="footer-link" id="support-link" target="_blank">Nếu có lỗi báo với tui tại đây!</a>
+      </div>
+    </div>
+    <!-- Modal popup -->
+    <div id="modal-overlay" style="display:none;"></div>
+    <div id="modal-popup" style="display:none;">
+      <div id="modal-content"></div>
+      <button id="modal-close" class="download-btn" style="margin-top:24px;">Đóng</button>
+    </div>
+  </div>
+  <script src="static/script.js"></script>
+</body>
+</html> 
